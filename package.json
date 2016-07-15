@@ -1,5 +1,5 @@
 {
-  "name": "nativebutton",
+  "name": "react-native-nativebutton",
   "version": "0.1.0",
   "description": "ReactNative - Native button for iOS and Android",
   "main": "index.js",
