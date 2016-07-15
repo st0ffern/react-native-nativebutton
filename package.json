@@ -1,0 +1,32 @@
+{
+  "name": "nativebutton",
+  "version": "0.1.0",
+  "description": "ReactNative - Native button for iOS and Android",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoffern/react-native-nativebutton.git"
+  },
+  "keywords": [
+    "Native",
+    "button",
+    "react-native",
+    "react",
+    "native",
+    "button",
+    "button",
+    "native"
+  ],
+  "author": "stoffern",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stoffern/react-native-nativebutton/issues"
+  },
+  "homepage": "https://github.com/stoffern/react-native-nativebutton#readme"
+}
