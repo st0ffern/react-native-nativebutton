@@ -12,7 +12,7 @@ class Button extends Component{
         background={TouchableNativeFeedback.SelectableBackground()}
         {...this.props}
       >
-        <View>
+        <View style={this.props.style}>
           {this.props.children}
         </View>
       </TouchableNativeFeedback>

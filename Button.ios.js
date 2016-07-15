@@ -8,7 +8,7 @@ class Button extends Component{
   render(){
     return(
       <TouchableOpacity {...props}>
-        <View>
+        <View style={this.props.style}>
           {props.children}
         </View>
       </TouchableOpacity>
