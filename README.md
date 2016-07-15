@@ -6,6 +6,11 @@ iOS = TouchableOpacity
 
 Nothing more, only the native feeling! :)
 
+
+## Installation
+```npm i -S react-native-nativebutton``` https://www.npmjs.com/package/react-native-nativebutton
+
+
 ## Props
 - `children` **(required)**: the content to negate.
 
