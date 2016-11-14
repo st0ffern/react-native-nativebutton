@@ -18,7 +18,7 @@ Nothing more, only the native feeling! :)
 ## Usage Examples
 
 ```js
-import {Button} from "react-native-nativebutton"
+import Button from "react-native-nativebutton"
 
 class Example extends Component{
   render(){
