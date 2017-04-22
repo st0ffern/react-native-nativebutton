@@ -7,10 +7,8 @@ import {
 class Button extends Component{
   render(){
     return(
-      <TouchableOpacity {...props}>
-        <View style={this.props.style}>
-          {props.children}
-        </View>
+      <TouchableOpacity {...this.props}>
+        {this.props.children}
       </TouchableOpacity>
     )
   }
