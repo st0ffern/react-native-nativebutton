@@ -1,17 +1,18 @@
 {
   "name": "react-native-nativebutton",
-  "version": "0.1.3",
+  "version": "0.0.0-development",
   "description": "ReactNative - Native button for iOS and Android",
   "main": "index.js",
   "directories": {
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stoffern/react-native-nativebutton.git"
+    "url": "https://github.com/stoffern/react-native-nativebutton.git"
   },
   "keywords": [
     "Native",
@@ -28,5 +29,14 @@
   "bugs": {
     "url": "https://github.com/stoffern/react-native-nativebutton/issues"
   },
-  "homepage": "https://github.com/stoffern/react-native-nativebutton#readme"
+  "homepage": "https://github.com/stoffern/react-native-nativebutton#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
+    "semantic-release": "^6.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
