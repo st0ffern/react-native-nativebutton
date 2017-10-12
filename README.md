@@ -1,5 +1,7 @@
 ## react-native-nativebutton ![](https://img.shields.io/npm/v/react-native-nativebutton.svg?style=flat-square) [![David](https://img.shields.io/david/dev/stoffern/react-native-nativebutton.svg?style=flat-square)]() [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stoffern/react-native-nativebutton.svg)](https://greenkeeper.io/)
+
 
 This provides native button responses for each platform (iOS and Android)
 
