@@ -1,4 +1,6 @@
 import React,{Component} from 'react'
+import PropTypes from 'prop-types'
+
 import {
   TouchableOpacity,
   View,
@@ -14,6 +16,6 @@ class Button extends Component{
   }
 }
 Button.propTypes = {
-  children: React.PropTypes.any.isRequired,
+  children: PropTypes.any.isRequired,
 }
 export default Button;
